@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keerthana R | Data Analytics Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,Arial,sans-serif;line-height:1.6;color:#1f2937;background:#f8fafc}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid #e5e7eb}
+.nav{max-width:1100px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800;color:#111827}
+nav a{margin-left:22px;text-decoration:none;color:#4b5563;font-size:14px}
+nav a:hover{color:#111827}
+.hero{max-width:1100px;margin:auto;padding:100px 24px 85px;display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}
+.badge{display:inline-block;background:#e0e7ff;color:#3730a3;padding:7px 13px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.05;color:#111827;margin-bottom:20px}
+.hero p{font-size:18px;color:#6b7280;max-width:700px}
+.btns{margin-top:28px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid #111827}
+.primary{background:#111827;color:white}
+.secondary{color:#111827;background:white}
+.profile-card{background:white;border:1px solid #e5e7eb;border-radius:24px;padding:28px;box-shadow:0 15px 45px rgba(15,23,42,.08)}
+.initial{width:90px;height:90px;border-radius:50%;display:grid;place-items:center;background:#111827;color:white;font-size:32px;font-weight:800;margin-bottom:18px}
+.profile-card h3{font-size:24px;margin-bottom:5px}
+.profile-card p{font-size:14px;color:#6b7280}
+section{max-width:1100px;margin:auto;padding:75px 24px}
+.section-title{font-size:34px;color:#111827;margin-bottom:10px}
+.section-sub{color:#6b7280;margin-bottom:30px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.panel{background:white;border:1px solid #e5e7eb;border-radius:18px;padding:26px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.skill{background:#f1f5f9;border:1px solid #e2e8f0;padding:8px 12px;border-radius:9px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:white;border:1px solid #e5e7eb;border-radius:18px;padding:26px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 35px rgba(15,23,42,.08)}
+.card .tag{font-size:12px;font-weight:800;color:#4f46e5;text-transform:uppercase;letter-spacing:.08em}
+.card h3{margin:8px 0 10px;color:#111827;font-size:22px}
+.card p,.card li{font-size:14px;color:#6b7280}
+.card ul{padding-left:18px}
+.education{display:grid;gap:16px}
+.edu{background:white;border-left:4px solid #111827;border-radius:12px;padding:20px 22px;border-top:1px solid #e5e7eb;border-right:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb}
+.edu h3{color:#111827}.edu p{color:#6b7280}
+.contact{background:#111827;color:white;border-radius:24px;padding:45px}
+.contact h2{font-size:36px;margin-bottom:10px}
+.contact p{color:#d1d5db;margin-bottom:22px}
+.contact a{color:white}
+footer{text-align:center;padding:30px;color:#6b7280;font-size:13px}
+@media(max-width:760px){
+ .hero,.about,.grid{grid-template-columns:1fr}
+ .hero{padding-top:65px}
+ nav .links{display:none}
+ h1{font-size:48px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav">
+    <div class="logo">Keerthana R</div>
+    <div class="links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <span class="badge">DATA ANALYTICS • AI • POWER BI</span>
+    <h1>Hi, I'm Keerthana.</h1>
+    <p>Aspiring Data Analytics professional with a Bachelor's degree in Business Administration – Information Systems and currently pursuing an M.Sc. in Data Analytics.</p>
+    <div class="btns">
+      <a class="btn primary" href="#projects">View Projects</a>
+      <a class="btn secondary" href="#contact">Contact Me</a>
+    </div>
+  </div>
+  <div class="profile-card">
+    <div class="initial">KR</div>
+    <h3>Keerthana R</h3>
+    <p>Data Analytics Student</p>
+    <p style="margin-top:12px">Python · SQL · Excel · Power BI · Power Apps</p>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">Analytical thinking with practical business and technology experience.</p>
+  <div class="about">
+    <div class="panel">
+      <p>I am interested in applying analytical and technical skills to real-world business problems and developing effective, data-driven solutions. My academic work includes research on the role of AI in enhancing customer experience on e-commerce platforms, along with practical industrial exposure in a garment manufacturing and export environment.</p>
+    </div>
+    <div class="panel" id="skills">
+      <h3>Technical Skills</h3>
+      <div class="skills">
+        <span class="skill">Python</span><span class="skill">SQL</span><span class="skill">Power BI</span>
+        <span class="skill">Microsoft Excel</span><span class="skill">Power Apps</span>
+        <span class="skill">Data Analysis</span><span class="skill">Data Visualization</span>
+        <span class="skill">Statistics</span><span class="skill">Data Cleaning</span>
+        <span class="skill">Data Interpretation</span><span class="skill">Problem Solving</span>
+        <span class="skill">Canva</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects & Experience</h2>
+  <p class="section-sub">Academic research, industrial exposure and hands-on application projects.</p>
+  <div class="grid">
+    <article class="card">
+      <span class="tag">Research Project</span>
+      <h3>AI in E-Commerce Customer Experience</h3>
+      <p>Research study examining how AI contributes to customer support, personalization, engagement, safety and security on e-commerce platforms.</p>
+      <ul>
+        <li>Collected and analyzed primary data using a structured questionnaire.</li>
+        <li>Applied statistical techniques to identify patterns and relationships.</li>
+        <li>Interpreted findings related to customer satisfaction and trust.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="tag">Power Apps</span>
+      <h3>Cart & Checkout Application</h3>
+      <p>A completed Microsoft Power Apps project focused on a practical shopping workflow.</p>
+      <ul>
+        <li>Product selection and cart functionality.</li>
+        <li>Quantity update and checkout features.</li>
+        <li>Hands-on experience with Power Apps and problem solving.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="tag">Industrial Training</span>
+      <h3>Priya Handlooms, Karur</h3>
+      <p>15-day industrial training covering business operations and multiple organizational departments.</p>
+      <ul>
+        <li>Observed production, marketing & sales, accounts and HR processes.</li>
+        <li>Learned about quality control, R&D, documentation and logistics.</li>
+        <li>Gained practical exposure to how information and records support operations.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="tag">Design</span>
+      <h3>Poster & Product Design</h3>
+      <p>Created posters and product-oriented visual designs using Canva, focusing on clear layouts and effective use of fonts and design elements.</p>
+    </article>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="education">
+    <div class="edu"><h3>M.Sc. Data Analytics</h3><p>PSGR Krishnammal College for Women · Currently Pursuing</p></div>
+    <div class="edu"><h3>Bachelor of Business Administration – Information Systems</h3><p>PSG College of Arts & Science, Coimbatore · Completed</p></div>
+    <div class="edu"><h3>Higher Secondary Education (HSC)</h3><p>Velammal Vidyalaya School, Karur · Completed</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <h2>Let's Connect</h2>
+    <p>Interested in data analytics, business intelligence, AI applications and practical technology projects.</p>
+    <a class="btn secondary" href="mailto:keerthana@example.com">Email Keerthana</a>
+  </div>
+</section>
+
+<footer>© 2026 Keerthana R · Data Analytics Portfolio</footer>
+</body>
+</html>
